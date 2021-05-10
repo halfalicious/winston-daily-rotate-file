@@ -36,7 +36,7 @@ The DailyRotateFile transport can rotate files by minute, hour, day, month, year
 
 ## Usage
 ``` js
-  var winston = require('winston');
+  var winston = require('@halfalicious/winston');
   require('winston-daily-rotate-file');
 
   var transport = new winston.transports.DailyRotateFile({

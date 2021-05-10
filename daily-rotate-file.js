@@ -8,7 +8,7 @@ var zlib = require('zlib');
 var hash = require('object-hash');
 var MESSAGE = require('triple-beam').MESSAGE;
 var PassThrough = require('stream').PassThrough;
-var Transport = require('winston-transport');
+var Transport = require('@halfalicious/winston-transport');
 
 var loggerDefaults = {
     json: false,
