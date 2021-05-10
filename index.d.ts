@@ -1,4 +1,4 @@
-import TransportStream = require("winston-transport");
+import TransportStream = require('@halfalicious/winston-transport');
 
 // referenced from https://stackoverflow.com/questions/40510611/typescript-interface-require-one-of-two-properties-to-exist
 type RequireOnlyOne<T, Keys extends keyof T = keyof T> =
